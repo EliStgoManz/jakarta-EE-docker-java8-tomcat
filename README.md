@@ -54,6 +54,35 @@ myservlet; es el archivo que contiene código HTML es un archivo de java que se 
 
 
 
+-mostramos las base de datos creamos en los primeros pasos
+![SHOW DATABASES](https://user-images.githubusercontent.com/67016286/171701145-8fc16dd0-7f40-42aa-87b3-f3af9ee1ac27.PNG)
+
+-una vez hayamos ingresado la contraseña podemos ingresar a nuestra base de datos que creamos al principio llamada myDb
+![use myDb](https://user-images.githubusercontent.com/67016286/171700799-ec85c7c5-d908-4b69-9866-2c9b6f6acf3e.PNG)
+
+
+-nos iremos a nivel de carpet y daremos click derecho en la carpeta principal->crearemos new File y nombraremos el archivo como Dockerfile:
+Dentro del archivo docker file escribiremos
+
+![contruimo la imagen de DockerFile con docker build -t my-web-app](https://user-images.githubusercontent.com/67016286/171701701-5bea37aa-9d23-48ad-8c2c-be4cc931e63b.PNG)
+
+-En la primer linea inicializamos el servidor de tomcat
+-en la segunda linea agregamos el target que genera el MyWebApp.war
+-en la tercer linea ejecutamos el servicio e iniciar el servidor de tomcat.
+
+
+
+-probando la aplicación en el navegador
+![probando la apliación en el navegador](https://user-images.githubusercontent.com/67016286/171702925-bfb0dc2e-ccd5-42f1-b91b-387e775f7827.PNG)
+
+![usuario guardado en tabla](https://user-images.githubusercontent.com/67016286/171702747-53f9dcce-a519-4c88-9450-ed5ea783cf26.PNG)
+
+
+
+
+
+
+
 
 
 
